@@ -32,7 +32,54 @@
                         />
                     </div>
                 </div>
-                <div>3</div>
+                <div>
+                    <div class="mb-1 font-semibold">Experience</div>
+
+                    <label
+                        for="experience"
+                        class="mb-1 flex items-center"
+                    >
+                        <input
+                            type="radio"
+                            name="experience"
+                            value=""
+                        />
+                        <span class="ml-2">All</span>
+                    </label>
+                    <label
+                        for="experience"
+                        class="mb-1 flex items-center"
+                    >
+                        <input
+                            type="radio"
+                            name="experience"
+                            value=""
+                        />
+                        <span class="ml-2">All</span>
+                    </label>
+                    <label
+                        for="experience"
+                        class="mb-1 flex items-center"
+                    >
+                        <input
+                            type="radio"
+                            name="experience"
+                            value=""
+                        />
+                        <span class="ml-2">All</span>
+                    </label>
+                    <label
+                        for="experience"
+                        class="mb-1 flex items-center"
+                    >
+                        <input
+                            type="radio"
+                            name="experience"
+                            value=""
+                        />
+                        <span class="ml-2">All</span>
+                    </label>
+                </div>
                 <div>4</div>
             </div>
 
