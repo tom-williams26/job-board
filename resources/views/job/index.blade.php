@@ -6,6 +6,7 @@
 
     <x-card class="mb-4 text-sm">
         <form
+            id="filtering-form"
             action="{{ route('jobs.index') }}"
             method="GET"
         >
@@ -16,6 +17,7 @@
                         name="search"
                         value="{{ request('search') }}"
                         placeholder="Search for any text"
+                        form-id="filtering-form"
                     />
                 </div>
                 <div>
@@ -25,10 +27,12 @@
                             name="min_salary"
                             value="{{ request('min_salary') }}"
                             placeholder="From"
+                            form-id="filtering-form"
                         /> <x-text-input
                             name="max_salary"
                             value="{{ request('max_salary') }}"
                             placeholder="To"
+                            form-id="filtering-form"
                         />
                     </div>
                 </div>
