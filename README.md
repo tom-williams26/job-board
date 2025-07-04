@@ -29,11 +29,13 @@ Built to showcase practical Laravel and full-stack development skills, this proj
 
 ### Prerequisites
 
-- PHP 8.1 or higher  
+- PHP >= 8.1  
 - Composer  
 - MySQL  
 - Laravel CLI  
-- Git  
+- Git Version Control  
+- GitHub  
+- Blade Templating  
 - Tailwind CSS  
 
 ### Installation
