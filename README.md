@@ -55,35 +55,40 @@ php artisan serve
 
 Then open http://localhost:8000 in your browser.
 
----
+✨ Features
 
-✨ **Features**
+    Job listings homepage
 
-- Job listings homepage
-- Create, edit, and delete listings (CRUD)
-- User authentication (login)
-- Filtering listings by keyword and category
-- Form validation and user-friendly error messages
-- Flash messaging and user feedback
-- Protected routes and access control
+    Create, edit, and delete listings (CRUD)
 
----
+    User authentication (login)
 
-🧭 **Roadmap**
+    Filtering listings by keyword and category
+
+    Form validation and user-friendly error messages
+
+    Flash messaging and user feedback
+
+    Protected routes and access control
+
+🧭 Roadmap
 
 Planned features and improvements:
 
-- ✅ User login (implemented)
-- 🔧 User registration functionality
-- 📄 Pagination for job listings
-- 🧹 Improved UI design and layout refinements
-- 📸 Add screenshots to this README
-- 🚀 Deploy project live using Forge or another platform
+    ✅ User login (implemented)
 
----
+    🔧 User registration functionality
 
-📌 **Project Status**
+    📄 Pagination for job listings
+
+    🧹 Improved UI design and layout refinements
+
+    📸 Add screenshots to this README
+
+    🚀 Deploy project live using Forge or another platform
+
+📌 Project Status
 
 🚧 This project is under active development.
 
-The core functionality is implemented, and additional features like registration, UI enhancements, and deployment are in progress. Contributions and feedback are welcome.
+The core functionality is implemented, and additional features like registration, UI enhancements, and deployment are in progress. 
