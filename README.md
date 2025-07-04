@@ -56,33 +56,27 @@ Open http://localhost:8000 in your browser.
 
 ## ✨ Features
 
-    Job listings homepage
-
-    Create, edit, and delete listings (CRUD)
-
-    User authentication (login)
-
-    Filtering listings by keyword and category
-
-    Form validation with error feedback
-
-    Flash messaging
-
-    Protected routes with access control
+- Job listings homepage
+- Create, edit, and delete listings (CRUD)
+- User authentication (login)
+- Filtering listings by keyword and category
+- Form validation with error feedback
+- Flash messaging
+- Protected routes with access control
 
 ## 🧭 Roadmap
 
-    ✅ User login (completed)
+✅ User login (completed)
 
-    🔧 User registration (in progress)
+🔧 User registration (in progress)
 
-    📄 Pagination for job listings
+📄 Pagination for job listings
 
-    🧹 UI/UX improvements
+🧹 UI/UX improvements
 
-    📸 Add screenshots to README
+📸 Add screenshots to README
 
-    🚀 Deploy live
+🚀 Deploy live
 
 ## 📌 Project Status
 
