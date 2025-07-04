@@ -52,7 +52,9 @@ php artisan migrate --seed
 php artisan serve
 
 Open http://localhost:8000 in your browser.
-✨ Features
+```
+
+## ✨ Features
 
     Job listings homepage
 
@@ -68,7 +70,7 @@ Open http://localhost:8000 in your browser.
 
     Protected routes with access control
 
-🧭 Roadmap
+## 🧭 Roadmap
 
     ✅ User login (completed)
 
@@ -82,7 +84,7 @@ Open http://localhost:8000 in your browser.
 
     🚀 Deploy live
 
-📌 Project Status
+## 📌 Project Status
 
 🚧 This project is under active development.
 
