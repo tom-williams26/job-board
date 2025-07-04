@@ -1,36 +1,40 @@
 # 💼 Job Board
 
-A modern job listing platform built with Laravel and Blade. This project was developed as part of a web development course, showcasing backend and frontend integration using PHP, MySQL, and the Laravel framework.
+A modern job listing platform built with Laravel and Blade. Developed as part of a web development course, this project demonstrates backend and frontend integration using PHP, MySQL, and Laravel.
 
 ---
 
 ## 📖 Overview
 
-The **Job Board** is a full-stack web application that allows users to view, create, and manage job listings. It features authentication, data validation, dynamic listing filtering, and clean, responsive UI powered by Laravel's Blade templating engine.
+**Job Board** is a full-stack web application that enables users to view, create, and manage job listings. It includes:
 
-This project was built by following a course and extended with custom features and improvements to demonstrate practical understanding of Laravel and full-stack development concepts.
+- User authentication and access control  
+- Data validation with user-friendly error messages  
+- Dynamic filtering by keyword and category  
+- Responsive UI built with Laravel Blade templates and Tailwind CSS  
+
+Built to showcase practical Laravel and full-stack development skills, this project extends core concepts with custom features and improvements.
 
 ---
 
 ## 🌐 Live Demo
 
-🚧 *Live demo not currently available* (Optional: Deploy to Laravel Forge, Render, or another hosting platform if you'd like to showcase it live)
+🚧 *No live demo available at the moment.*
+
+(Optionally, deploy using Laravel Forge, Render, or similar platforms.)
 
 ---
 
 ## 🚀 Getting Started
 
-To run this project locally:
-
 ### Prerequisites
-- PHP >= 8.1  
+
+- PHP 8.1 or higher  
 - Composer  
 - MySQL  
 - Laravel CLI  
-- Git Version Control  
-- GitHub  
-- Blade Templating  
-- Tailwind CSS
+- Git  
+- Tailwind CSS  
 
 ### Installation
 
@@ -38,23 +42,16 @@ To run this project locally:
 git clone https://github.com/tom-williams26/job-board.git
 cd job-board
 
-# Install dependencies
 composer install
-
-# Create environment file
 cp .env.example .env
-
-# Generate application key
 php artisan key:generate
 
-# Set up your database credentials in .env, then run:
+# Configure database credentials in .env
 php artisan migrate --seed
 
-# Start the development server
 php artisan serve
 
-Then open http://localhost:8000 in your browser.
-
+Open http://localhost:8000 in your browser.
 ✨ Features
 
     Job listings homepage
@@ -65,30 +62,28 @@ Then open http://localhost:8000 in your browser.
 
     Filtering listings by keyword and category
 
-    Form validation and user-friendly error messages
+    Form validation with error feedback
 
-    Flash messaging and user feedback
+    Flash messaging
 
-    Protected routes and access control
+    Protected routes with access control
 
 🧭 Roadmap
 
-Planned features and improvements:
+    ✅ User login (completed)
 
-    ✅ User login (implemented)
-
-    🔧 User registration functionality
+    🔧 User registration (in progress)
 
     📄 Pagination for job listings
 
-    🧹 Improved UI design and layout refinements
+    🧹 UI/UX improvements
 
-    📸 Add screenshots to this README
+    📸 Add screenshots to README
 
-    🚀 Deploy project live using Forge or another platform
+    🚀 Deploy live
 
 📌 Project Status
 
 🚧 This project is under active development.
 
-The core functionality is implemented, and additional features like registration, UI enhancements, and deployment are in progress. 
+The core functionality is implemented, and additional features like registration, UI enhancements, and deployment are in progress.
